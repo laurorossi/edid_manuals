@@ -1,6 +1,6 @@
 
 
-<img src="./media/image7.jpeg" style="width:8.325in;height:6.68056in"
+<img src="./media/image7.png" style="width:8.325in;height:6.68056in"
 alt="A body of water with mountains in the background Description automatically generated with medium confidence" />
 
 # Table of Contents
@@ -404,7 +404,7 @@ ASSA configuration depends on the selected “system”.</p></figcaption>
     report, scientific literature, modelled, NGO report, social media
     and crowdsourcing, etc.);
 
-13. The user can upload ￼￼);
+13. The user can upload );
 
 14. The user can discard the record data by clicking on the ‘*Cancel*’
     button;
