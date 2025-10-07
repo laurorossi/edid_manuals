@@ -463,7 +463,7 @@ The bulk insert procedure consists of the following steps:
 
 1.  The user clicks on the ‘*Bulk insert*’ button on the Search
     Dashboard (available to users with the role of ‘*Editor*’ or
-    ‘*Validator*’!);
+    ‘*Validator*’);
 
 19. The system displays the dedicated interface (Figure 8);
 
@@ -472,51 +472,7 @@ The bulk insert procedure consists of the following steps:
     second sheet "Guide" contains a guide for the compilation with attribute
     description, allowed formats, examples;
 
-21. The user fills the .xlsx file offline with data to upload following the second sheet "Guide" as a reference;
-
-22. The user clicks on the ‘*Upload*’ button;
-
-23. The system shows a file prompt;
-
-24. The user selects the file on local hard drives and uploads it;
-
-25. The system receives the file and checks that:
-
-    1.  The file format is allowed;
-
-    2.  The file size is within the size limits;
-
-    3.  All required fields are available (ignores any column with
-        unknown header);
-
-    4.  Values are in the right format given the column (number, text,
-        etc.); the format "class" refer to a pre-set list of option from where the user can select the correct value
-
-    5.  Each record has all the mandatory fields filled;
-
-26. Records not compliant with the above requirements are skipped and
-    logged in a json file available for download. The system checks for
-    identical records already present in the DB and skips those (this to
-    prevent against multiple uploads of a same file);
-
-27. In case two or more records differ only by geometries the system
-    merges the geometries into a single geometry collection of the
-    impact record;
-
-28. The system saves the valid records and prompts a window with a
-    message to the user and a downloadable log file with the check
-    outcome (including those records left out because not in the right
-    format).
-
-29. If the user has role of ‘Validator’ the imported records are
-    automatically validated.
-
-Only files with the following formats are admitted:
-
-- Excel file: geometries are listed by code (for NUTS, a single column
-  is enough, but all levels are allowed). The possible fields are:
-
-<!-- -->
+21. The user fills the [excel file template](template.xlsx) offline with data to upload following the second sheet "Guide" as a reference; geometries are listed by NUTS codes (all levels are allowed). The possible fields are:
 
 - source
 
@@ -553,6 +509,50 @@ Only files with the following formats are admitted:
 > second sheet of the [excel file template](template.xlsx).
 >
 > Attachments are not allowed in bulk upload.
+
+22. The user clicks on the ‘*Upload*’ button;
+
+23. The system shows a file prompt;
+
+24. The user selects the file on local hard drives and uploads it;
+
+25. The system receives the file and checks that:
+
+    1.  The file format is allowed;
+
+    2.  The file size is within the size limits;
+
+    3.  All required fields are available (ignores any column with
+        unknown header);
+
+    4.  Values are in the correct format for each column (e.g., number, text, class, etc.). The “class” format refers to a predefined list of options from which the user must select the appropriate value;
+
+    5.  Each record contains all required (mandatory) fields.
+
+26. Records not compliant with the above requirements are skipped and
+    logged in a json file available for download. The system checks for
+    identical records already present in the DB and skips those (this to
+    prevent against multiple uploads of a same file);
+
+27. In case two or more records differ only by geometries the system
+    merges the geometries into a single geometry collection of the
+    impact record;
+
+28. The system saves the valid records and prompts a window with a
+    message to the user and a downloadable log file with the check
+    outcome (including those records left out because not in the right
+    format).
+
+29. If the user has role of ‘Validator’ the imported records are
+    automatically validated.
+
+The following feature must :
+
+
+
+<!-- -->
+
+
 ##
 ### UC.05 – ‘Validating Drought Impact records’
 
