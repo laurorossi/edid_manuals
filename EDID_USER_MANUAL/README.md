@@ -188,7 +188,8 @@ Users can enter their credentials or register to obtain them.
 
 Finally users with the EU-login cannot automatically enter the platform, 
 but must request access the application with *read-only*, *editor* or *validator* 
-privileges, by writing to the folliwng email address: JRC-EMS-DROUGHT@ec.europa.eu
+privileges, by writing to the folliwng email address: 
+JRC-EMS-DROUGHT@ec.europa.eu
 
 ##
 ### UC.02 – ‘Querying the EDID Catalogue’
