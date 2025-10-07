@@ -140,7 +140,7 @@ In the following sections, the software use cases will be described in
 more detail.
 
 >***Drought impacts can potentially be grouped into broader Drought Events.
->Although the EDID database structure includes all necessary components to support the representation of such >impact events, this functionality is not yet implemented in the current version of the W-EDID platform.***
+>Although the EDID database structure includes all necessary components to support the representation of such impact events, this functionality is not yet implemented in the current version of the W-EDID platform.***
 
 # W-EDID Web application
 
