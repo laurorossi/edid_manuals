@@ -139,9 +139,8 @@ A user can have a combination of roles (Validator + Administrator).
 In the following sections, the software use cases will be described in
 more detail.
 
-***REMARK: Although the DB structure includes all the necessary objects
-related to impact events, the handling of impact events is not
-implemented in the current version of the W-EDID platform.***
+>***Drought impacts can potentially be grouped into broader Drought Events.
+>Although the EDID database structure includes all necessary components to support the representation of such >impact events, this functionality is not yet implemented in the current version of the W-EDID platform.***
 
 # W-EDID Web application
 
@@ -545,8 +544,6 @@ The bulk insert procedure consists of the following steps:
 
 29. If the user has role of ‘Validator’ the imported records are
     automatically validated.
-
-The following feature must :
 
 
 
