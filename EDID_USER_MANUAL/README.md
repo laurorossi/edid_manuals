@@ -85,12 +85,12 @@ web-based software tool developed and released to improve the usability
 and management of the European Drought Impacts Database (EDID).
 
 Technically, the W-EDID interface is a Web-based GIS application
-(Web-GIS) for accessing the EDID. It provides the core functionalities
-and features:
+(Web-GIS) for accessing the EDID. It provides the following core 
+functionalities and features:
 
 - User management and profiling;
 
-- Search functionalities with advanced filtering;
+- Search with advanced filtering;
 
 - Insertion and review new Drought Impact event data;
 
@@ -99,14 +99,14 @@ and features:
 
 - Interoperability features.
 
-Users will be able to geo-locate records through the most common GIS
-features (zoom in/out, pan, feature info, feature selection, etc.). The
-GUI will also make available some additional features:
+Users can geo-locate records through the most common GIS
+features (zoom in/out, pan, feature selection, etc.). The
+graphical user interface makes available some additional features:
 
 - Data visualization in tables and geo-spatial information on map
   viewers;
 
-- Advanced query functionality to smartly retrieve and browse ‘slices’
+- Advanced query to smartly retrieve and browse ‘slices’
   of datasets matching a set of configured filters;
 
 - Map layers overlapping, to better and quickly identify the features of
@@ -121,10 +121,10 @@ Different roles can be assigned to authorized users according to user
 profiling policies. The following roles are available:
 
 - *Read-only* user: this type of user can explore the database but
-  cannot neither modify nor validate new records.
+  cannot neither insert/modify nor validate new records.
 
 - *Editor* user: this type of user can query the database, enter new
-  records but not validate new records. Editor can modify or delete only
+  records but not validate new records. *Editor* users can modify or delete only
   their own records.
 
 - *Validator*: (only) this type of user can enter (like *Editor*),
@@ -153,8 +153,8 @@ W-EDID is a public Web Application available through the Internet at the
 URL: [**http://edid-test.eu**](http://edid-test.eu/), but only
 registered (authorized) users can access it.
 
-Users management and profiling will be addressed in detail further on in
-a dedicated section of this document.
+Users management and profiling are addressed in detail in the 
+"Administrator Manual".
 
 Authorized users access W-EDID by typing the above URL into a common Web
 browser tab and land on the application Home Page (Figure 1).
@@ -185,6 +185,10 @@ style="width:6.26806in;height:3.42431in" />
 
 *Figure 2 - EU Login Page.*
 Users can enter their credentials or register to obtain them.
+
+Finally users with the EU-login cannot automatically enter the platform, 
+but must request access the application with *read-only*, *editor* or *validator* 
+privileges, by writing to the folliwng email address: JRC-EMS-DROUGHT@ec.europa.eu
 
 ##
 ### UC.02 – ‘Querying the EDID Catalogue’
