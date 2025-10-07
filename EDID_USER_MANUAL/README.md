@@ -451,10 +451,7 @@ class="anchor"></span>
 ##
 ### UC.04 – ‘Bulk insert of a set of impact records by uploading a file’
 
-Registered users with role of ‘*Editor*’ or ‘*Validator*’ have an
-additional functionality available in the main Search Dashboard (Figure
-3) allowing them to insert new Drought Impact records by uploading a
-formatted file (Figure 8):
+Registered users with role of ‘*Editor*’ or ‘*Validator*’ insert one or more new Drought Impact records by uploading a formatted file (Figure 8). 
 
 <img src="./media/image15.png" style="width:6.26806in;height:3.0875in"
 alt="A screenshot of a login AI-generated content may be incorrect." />
@@ -462,18 +459,20 @@ alt="A screenshot of a login AI-generated content may be incorrect." />
 <span id="_Ref129797918_Copy_1" class="anchor"></span>
 *Figure 8- W-EDID Bulk Insert interface.*
 
+The bulk insert procedure consists of the following steps:
+
 1.  The user clicks on the ‘*Bulk insert*’ button on the Search
     Dashboard (available to users with the role of ‘*Editor*’ or
     ‘*Validator*’!);
 
-19. The system displays the dedicated interface (Figure 8)
+19. The system displays the dedicated interface (Figure 8);
 
 20. The user can download the [excel file template](template.xlsx). Only the first sheet
-    must be completed and will be considered in the upload process. The
-    second sheet contains a guide for the compilation with attribute
-    description, formatm examples.
+    ("Value") must be completed and will be considered in the upload process. The
+    second sheet "Guide" contains a guide for the compilation with attribute
+    description, allowed formats, examples;
 
-21. The user fills the .xlsx file offline with data to upload;
+21. The user fills the .xlsx file offline with data to upload following the second sheet "Guide" as a reference;
 
 22. The user clicks on the ‘*Upload*’ button;
 
@@ -488,10 +487,10 @@ alt="A screenshot of a login AI-generated content may be incorrect." />
     2.  The file size is within the size limits;
 
     3.  All required fields are available (ignores any column with
-        unknown header );
+        unknown header);
 
     4.  Values are in the right format given the column (number, text,
-        etc.);
+        etc.); the format "class" refer to a pre-set list of option from where the user can select the correct value
 
     5.  Each record has all the mandatory fields filled;
 
