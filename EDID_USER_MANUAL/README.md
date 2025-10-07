@@ -553,17 +553,14 @@ The bulk insert procedure consists of the following steps:
 ##
 ### UC.05 – ‘Validating Drought Impact records’
 
-New Drought Impact records entered by users not holding the role of
-‘*Validator*’ require validation prior to being available on the
-platform, regardless of the procedure used (i.e. manual insertion or
-file upload).
+New Drought Impact records submitted by users who do not hold the ‘*Validator*’ role must undergo validation before being made available on the platform, regardless of the submission method (manual entry or file upload).
 
 Registered users with the role of ‘*Validator*’ are therefore
 responsible for validating the new Impact records:
 
-1.  The user accesses Impact Record Detail panel (Figure 6);
+1.  The ‘*Validator*’ user accesses Impact Record Detail panel (Figure 6);
 
-2.  The user can validate the selected record by clicking on the
+2.  The ‘*Validator*’ user can validate the selected record by clicking on the
     ‘*Validate*’ button.
 
 ##
