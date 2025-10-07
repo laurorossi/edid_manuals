@@ -194,7 +194,7 @@ JRC-EMS-DROUGHT@ec.europa.eu
 ##
 ### UC.02 – ‘Querying the EDID Catalogue’
 
-This feature allows all platform users to retrieve Drought Impact data
+This feature allows all users to retrieve Drought Impact data
 of interest available in EDID .
 
 After logging in to the platform, the system displays the Search
@@ -239,8 +239,8 @@ Dashboard. The column “Status” refers to “valid” attribute in ImpactReco
     UC.02.01 – ‘Setting the Additional System Specific Attributes
     (ASSA)’);
 
-11. The user selects the source type from a list (e.g.: firsthand
-    information, inventory, media news, modelled impact, , government
+11. The user can select the source type from a list (e.g.: firsthand
+    information, inventory, media news, modelled impact, government
     report, scientific literature, modelled, NGO report, social media
     and crowdsourcing);
 
