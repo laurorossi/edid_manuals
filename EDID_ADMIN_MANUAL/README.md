@@ -1,4 +1,7 @@
-# **Operational Manual — Access Management in Django Admin (EDID Application)**
+<img src="./media/cover_admin.png" style="width:8.325in;height:6.68056in"
+alt="A body of water with mountains in the background Description automatically generated with medium confidence" />
+
+# **W-EDID Administrator Manual — Access Management in Django Admin**
 
 ## **1. Introduction**
 
