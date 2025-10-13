@@ -1,7 +1,6 @@
-<img src="./media/cover_admin.png" style="width:8.325in;height:6in"
-alt="A body of water with mountains in the background Description automatically generated with medium confidence" />
-
 # **W-EDID Administrator Manual — Access Management in Django Admin**
+
+![A body of water with mountains in the background Description automatically generated with medium confidence](./media/cover_admin.png)
 
 ## **1. Introduction**
 
@@ -24,7 +23,7 @@ application.
 
 ## Read-only (View Only)
 
-- Can log into the W-EDID application and view existing data.
+- Can log in to the W-EDID application and view existing data.
 
 - Cannot create, edit, or delete any records.
 
@@ -59,20 +58,22 @@ which they can assign user roles
 
 To log in to the administration dashboard:
 
-1.  Open a browser (e.g., Chrome, Firefox, Edge).
+1. Open a browser (e.g., Chrome, Firefox, Edge).
 
-2.  Go to your site’s address and add **/admin/** at the end of the URL
-    ( http://edid-test.eu/admin/).
+2. Go to your site’s address and add **/admin/** at the end of the URL
+    ([http://edid-test.eu/admin/](http://edid-test.eu/admin/)).
 
-3.  The login page will appear. Enter your personal **username** and
-    **password**.<img src="./media/image1.png"
-    style="width:6.53448in;height:2.90945in" />
+3. The login page will appear. Enter your personal **username** and
+    **password**.
 
-4.  If your account has been enabled as staff, you will see the **Django
-    Admin dashboard**.<img src="./media/image2.png"
-    style="width:6.70918in;height:3.05289in" />
+    ![Django Admin login page](./media/image1.png)
 
-5.  At the top-right corner, you will see your username and the link to
+4. If your account has been enabled as staff, you will see the **Django
+        Admin dashboard**.
+    
+    ![Django Admin dashboard](./media/image2.png)
+
+5. At the top-right corner, you will see your username and the link to
     log out.
 
 ## **4. Managing User Roles**
@@ -80,8 +81,9 @@ To log in to the administration dashboard:
 Through the Django Admin dashboard, administrators can view, assign and
 edit user roles of all registered users in the system.
 
-### **4.1 Visualising the user list**<img src="./media/image3.png"
-style="width:7.40431in;height:3.34516in" />
+### **4.1 Visualising the user list**  
+
+![User list in Django Admin](./media/image3.png)
 
 - From the main menu, click **Users**.
 
@@ -115,7 +117,9 @@ access within the platform.
 
 3.  Save your changes by clicking the **Save** button at the bottom of
     the
-    page.<img src="./media/image4.png" style="width:6.679in;height:3.01658in" />
+        page.
+    
+    ![Editing user details in Django Admin](./media/image4.png)
 
 ## **5. Managing Access Logs (LoginLog)**
 
@@ -135,27 +139,27 @@ used.
 
 ### **5.3 Rules for logs**
 
-- Logs are used to guarantee the system’s security.
+- Logs are used to ensure the system’s security.
 
 - They must **never be modified or deleted** by operators.
 
-- Only the system administrator may intervene if technically required.  
-  <img src="./media/image5.png"
-  style="width:6.75288in;height:3.05085in" />
+- Only the system administrator may intervene if technically required.
+  ![Login logs list in Django Admin](./media/image5.png)
 
 ## **6. Managing Source Types (SourceType)**
 
 The **SourceType** model contains the different types of sources
-available in the system.<img src="./media/image6.png"
-style="width:7.33078in;height:3.31193in" />
+available in the system.
+
+![SourceType list in Django Admin](./media/image6.png)
 
 ### **6.1 Creating a new source type**
 
-1.  Go to **Source Types**.(the button is located at the top right)
+1. Go to **Source Types**.(the button is located at the top right)
 
-2.  Click **Add SourceType**.
+2. Click **Add SourceType**.
 
-3.  Fill in the fields:
+3. Fill in the fields:
 
     - **Name** (required)
 
@@ -163,9 +167,8 @@ style="width:7.33078in;height:3.31193in" />
 
     - **Code** (optional, numeric identifier)
 
-4.  Save to confirm.  
-    <img src="./media/image7.png"
-    style="width:6.72587in;height:2.87902in" />
+4. Click **Save** to confirm.  
+    ![Add SourceType form in Django Admin](./media/image7.png)
 
 ## **9. Logout**
 
